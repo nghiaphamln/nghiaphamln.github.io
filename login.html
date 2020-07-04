@@ -17,14 +17,22 @@
 </head>
 
 <body>
+    <div class="login-dark" style="background-image: url(&quot;assets/img/background-login.jpg&quot;);">
+        <form style="font-family: Lobster, cursive;" method="post">
+            <h2 class="sr-only">Login Form</h2>
+            <div class="illustration"><i class="icon ion-ios-locked-outline" style="color: rgb(194,206,218);"></i></div>
+            <div class="form-group"><input type="email" name="username" placeholder="Tài khoản" class="form-control" /></div>
+            <div class="form-group"><input type="password" name="password" placeholder="Mật khẩu" class="form-control" /></div>
+            <div class="form-group"><button class="btn btn-primary btn-block" style="background-color: rgb(194,206,218);font-family: Lobster, cursive; color: black;" type="submit">Đăng nhập</button></div><a class="forgot" href="register.html"><b>Chưa có tài khoản? Đăng kí ngay.</b></a></form>
+    </div>
     <nav class="navbar navbar-inverse navbar-fixed-top" style="font-family: Lobster, cursive;">
         <div class="container">
-            <div class="navbar-header"><a class="navbar-brand" href="index.html" ><img id="logo" src="assets/img/logo.png"><strong>Vape</strong>Shop</a><button data-toggle="collapse" class="navbar-toggle collapsed" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button></div>
+            <div class="navbar-header"><a class="navbar-brand" href="index.html" ><img id="logo" src="assets/img/logo.png" ><strong>Vape</strong>Shop</a><button data-toggle="collapse" class="navbar-toggle collapsed" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button></div>
             <div
                 class="collapse navbar-collapse" id="navcol-1">
                 <ul class="nav navbar-nav navbar-right">
-                    <li class="active" role="presentation"><a href="index.html" style="background-color: rgb(194,206,218);">Giới thiệu</a></li>
-                    <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false" href="#">Sản phẩm<span class="caret"></span></a>
+                    <li  role="presentation"><a href="index.html" >Giới thiệu</a></li>
+                    <li class="dropdown" ><a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false" href="#" >Sản phẩm<span class="caret"></span></a>
                         <ul class="dropdown-menu" role="menu">
                             <li role="presentation"><a href="boxmod.html">Box Mod</a></li>
                             <li role="presentation"><a href="mechmod.html">Mech Mod</a></li>
@@ -32,52 +40,12 @@
                             <li role="presentation"><a href="phukien.html">Phụ kiện</a></li>
                         </ul>
                     </li>
-                    <li  role="presentation"><a href="contact.html" >Liên hệ</a></li>
-                    <li role="presentation"><a href="login.html"><i class="glyphicon glyphicon-log-in"></i>&nbsp;Đăng nhập</a></li>
+                    <li role="presentation"><a href="contact.html" >Liên hệ</a></li>
+                    <li role="presentation" class="active" ><a href="login.html" style="background-color: rgb(194,206,218);"><i class="glyphicon glyphicon-log-in" ></i>&nbsp;Đăng nhập</a></li>
                 </ul>
         </div>
         </div>
     </nav>
-    <div id="promo" style="filter: blur(0px);background-image: url(&quot;assets/img/Background.jpg&quot;);">
-        <div class="jumbotron" style="color: rgb(45,45,30);background-color: rgba(212,215,112,0);">
-            <h1 style="color: rgb(255,255,255);font-family: Lobster, cursive;">Wellcome!</h1>
-            <p style="color: rgb(228,218,218);font-family: Lobster, cursive;"><br>Chào mừng bạn đến với VapeShop!<br>Nhân dịp khai trương, tại cửa hàng đang có những ưu đãi đặc biệt!<br>Bắt đầu thôi!</p>
-            <p></p>
-        </div>
-    </div>
-    <div class="dark-section">
-        <div class="container site-section" id="why">
-            <h1 style="font-family: Lobster, cursive;"><strong>TẠI SAO LẠI MUA Ở CHỖ CHÚNG TÔI?</strong></h1>
-            <div class="row">
-                <div class="col-md-4 item"><i class="fa fa-sun-o" style="color: rgb(38,170,227);"></i>
-                    <h2 style="font-family: Lobster, cursive;">Trải nghiệm</h2>
-                    <p style="font-family: Lobster, cursive;">Cung cấp các trải nghiệm mua sắm tuyệt vời</p>
-                </div>
-                <div class="col-md-4 item"><i class="fa fa-heart" style="color: rgb(197,79,239);"></i>
-                    <h2 style="font-family: Lobster, cursive;">Thân thiện</h2>
-                    <p style="font-family: Lobster, cursive;">Nhân viên tư vấn thân thiện, nhiệt tình</p>
-                </div>
-                <div class="col-md-4 item"><i class="fa fa-shopping-basket" style="color: rgb(67,74,254);"></i>
-                    <h2 style="font-family: Lobster, cursive;">Mua sắm</h2>
-                    <p style="font-family: Lobster, cursive;">Sản phẩm chất lượng, chính hãng</p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="container site-section" id="gallery">
-        <h1 style="font-family: Lobster, cursive;">Sảm phẩm!</h1>
-        <div class="row">
-            <div class="col-md-4">
-                <div class="thumbnail"><a data-lightbox="Vape" href="assets/img/Hannya230W.jpg" target="_blank"><img class="img-responsive" src="assets/img/Hannya230W.jpg"></a></div>
-            </div>
-            <div class="col-md-4">
-                <div class="thumbnail"><a data-lightbox="Vape" href="assets/img/MechDejavu.jpg" target="_blank"><img class="img-responsive" src="assets/img/MechDejavu.jpg"></a></div>
-            </div>
-            <div class="col-md-4">
-                <div class="thumbnail"><a data-lightbox="Vape" href="assets/img/HannyaNano.jpg" target="_blank"><img class="img-responsive" src="assets/img/HannyaNano.jpg"></a></div>
-            </div>
-        </div>
-    </div>
     <footer>
         <div class="container">
             <div class="row" style="font-family: Lobster, cursive;">
